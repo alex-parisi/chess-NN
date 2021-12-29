@@ -26,9 +26,12 @@ This option can be skipped, but the neural network will train very slowly withou
 
 ### Running
 
-To generate the dataset, first you must specify the path of the Stockfish engine. You can find it here: (!!!!!!!)
+To generate the dataset, first you must specify the path of the Stockfish engine. You can download the engine here: https://stockfishchess.org/download/
+Then, in the stockfish() function, change the PATH value to the location of the Stockfish executable.
 
 Then run:
 ```
 python3 generateData.py
 ```
+The result will be a very large .npz dataset containing 1,000,000 chess board positions and their Stockfish evaluation at the specified depth (default = 0).
+
