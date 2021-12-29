@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 This will install the required packages. You must also configure TensorFlow to work properly with a GPU (if desired):
 
-- https://www.tensorflow.org/install/gpu for more information. Follow ALL installation instructions!
+- https://www.tensorflow.org/install/gpu for more information. Follow **ALL** installation instructions!
   - CUDA Toolkit version 11.0
   - cuDNN SDK 8.2.0
 
@@ -34,4 +34,10 @@ Then run:
 python3 generateData.py
 ```
 The result will be a very large .npz dataset containing 1,000,000 chess board positions and their Stockfish evaluation at the specified depth (default = 0).
+The process to generate the dataset takes quite a bit of time (~= 20 hours), so you can instead download a sample dataset here: (!!!!!!)
 
+Then run:
+```
+python 3 main.py
+```
+This will create the neural network, train it using the dataset generated above, and then evaluate 100 test cases to validate accuracy.
