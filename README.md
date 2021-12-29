@@ -9,7 +9,9 @@ The next step is to train a separate CNN on the likelihood that a move is "good"
 
 ### Config
 
-In order to run this project, execute the following inside the chess-NN directory:
+This project was written using Python 3.7
+
+In order to run this project, first execute the following inside the chess-NN directory:
 
 ```
 pip install -r requirements.txt
@@ -17,3 +19,8 @@ pip install -r requirements.txt
 
 This will install the required packages. You must also configure TensorFlow to work properly with a GPU (if desired):
 
+- https://www.tensorflow.org/install/gpu for more information. Follow ALL installation instructions!
+  - CUDA Toolkit version 11.0
+  - cuDNN SDK 8.2.0
+
+This option can be skipped, but the neural network will train very slowly without access to a GPU.
