@@ -34,10 +34,11 @@ Then run:
 python3 generateData.py
 ```
 The result will be a very large .npz dataset containing 1,000,000 chess board positions and their Stockfish evaluation at the specified depth (default = 0).
+
 The process to generate the dataset takes quite a bit of time (~= 20 hours), so you can instead download a sample dataset here: (!!!!!!)
 
 Then run:
 ```
-python 3 main.py
+python3 main.py
 ```
 This will create the neural network, train it using the dataset generated above, and then evaluate 100 test cases to validate accuracy.
