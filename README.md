@@ -12,7 +12,6 @@ The next step is to train a separate CNN on the likelihood that a move is "good"
 This project was written using Python 3.7
 
 In order to run this project, first execute the following inside the chess-NN directory:
-
 ```
 pip install -r requirements.txt
 ```
@@ -24,3 +23,12 @@ This will install the required packages. You must also configure TensorFlow to w
   - cuDNN SDK 8.2.0
 
 This option can be skipped, but the neural network will train very slowly without access to a GPU.
+
+### Running
+
+To generate the dataset, first you must specify the path of the Stockfish engine. You can find it here: (!!!!!!!)
+
+Then run:
+```
+python3 generateData.py
+```
