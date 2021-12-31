@@ -5,7 +5,8 @@ to play the game of chess. Currently, I am working on implementing a board evalu
 
 The board evaluation CNN was trained using randomly generated legal positions and Stockfish's evaluation.
 
-The next step is to train a separate CNN on the likelihood that a move is "good", again using Stockfish's evaluation.
+The next step is to train a separate CNN on the likelihood that a move is "good", again using Stockfish's evaluation. This likelihood will be used as the policy
+metric for a Monte Carlo tree search.
 
 ### Config
 
