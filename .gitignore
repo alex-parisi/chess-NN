@@ -2,3 +2,4 @@ stockfish/
 venv/
 model.h5
 new_dataset.npz
+.idea/
