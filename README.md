@@ -44,7 +44,7 @@ Then, in the dataFnc.py file, change the "STOCKFISH_PATH" value to the location 
 
 Then run:
 ```
-python3 src/generateData.py
+generateData.py
 ```
 The result will be a very large .npz dataset containing 1,000,000 chess board positions and their Stockfish evaluation at the specified depth (default = 0).
 
@@ -52,7 +52,7 @@ The process to generate the dataset takes quite a bit of time (~= 20 hours), so 
 
 Then run:
 ```
-python3 src/trainModel.py
+trainModel.py
 ```
 This will create the neural network, train it using the dataset generated above, and then evaluate 100 test cases to validate accuracy. 
 It will also export the trained model for future use. 
