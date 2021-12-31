@@ -1,0 +1,6 @@
+stockfish/
+venv/
+.idea/
+.git/
+model.h5
+new_dataset.npz
