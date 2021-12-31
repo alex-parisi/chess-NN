@@ -3,7 +3,7 @@ import chess.engine
 import random
 import numpy
 
-STOCKFISH_PATH = 'C:/Users/alexp/Desktop/chess-NN/stockfish/stockfish.exe'
+STOCKFISH_PATH = 'C:/Users/alexp/Desktop/chess_NN/stockfish/stockfish.exe'
 
 
 # Generate a random board
