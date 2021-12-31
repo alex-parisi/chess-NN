@@ -48,7 +48,7 @@ python3 src/generateData.py
 ```
 The result will be a very large .npz dataset containing 1,000,000 chess board positions and their Stockfish evaluation at the specified depth (default = 0).
 
-The process to generate the dataset takes quite a bit of time (~= 20 hours), so you can instead  [download a sample dataset here](https://drive.google.com/file/d/1iFvoEUZP8pWSttvm7fFzcby2izixvJB8/view?usp=sharing)
+The process to generate the dataset takes quite a bit of time (~= 20 hours), so you can instead use the dataset provided in the repository.
 
 Then run:
 ```
