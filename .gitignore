@@ -1,3 +1,4 @@
 stockfish/
-model_plot.png
+venv/
 model.h5
+new_dataset.npz
